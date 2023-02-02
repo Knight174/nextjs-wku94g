@@ -15,6 +15,8 @@ export default function Home() {
         </h1>
         <h3>
           <Link href="/posts/first-post">First Post</Link>
+          <br />
+          <Link href="/posts/second-post">Second Post</Link>
         </h3>
         <p className={styles.description}>
           Get started by editing{' '}
