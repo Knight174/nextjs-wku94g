@@ -1,7 +1,6 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Image from 'next/image';
-import postImg from '../../assets/images/1.png';
 
 export default function Post() {
   const router = useRouter();
@@ -21,7 +20,9 @@ export default function Post() {
       <h1>Post: {pid}</h1>
       <Image
         alt="post-image"
-        src={postImg}
+        src={
+          'https://images.unsplash.com/photo-1675430422951-593ece599ec2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60'
+        }
         width={700}
         height={475}
         sizes="100vw"
