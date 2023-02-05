@@ -13,17 +13,18 @@ export default function Home() {
         <h1 className={styles.title}>
           Hello, <a href="https://nextjs.org">Next.js!</a>
         </h1>
-        <h3>
-          <Link href="/posts/first-post">First Post</Link>
-          <br />
-          <Link href="/posts/second-post">Second Post</Link>
-        </h3>
+
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
 
         <div className={styles.grid}>
+          <Link href="/posts/post-list" className={styles.card}>
+            <h3>Posts &rarr;</h3>
+            <p>Click it and get my posts.</p>
+          </Link>
+
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
