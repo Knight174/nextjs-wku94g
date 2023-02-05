@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
 import Image from "next/image";
-import book from "../../assets/images/book-open.svg";
+import book from "/assets/images/book-open.svg";
 
 export default function Post() {
   const router = useRouter();
