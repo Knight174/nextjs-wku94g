@@ -1,9 +1,9 @@
-import Link from 'next/link';
-import styles from './styles/Posts.module.css';
+import Link from "next/link";
+import styles from "./styles/Posts.module.css";
 
 export default function PostList() {
   return (
-    <>
+    <div>
       <h1 className={styles.title}>Post List</h1>
       <ul>
         <li>
@@ -16,6 +16,6 @@ export default function PostList() {
           <Link href="/posts/3">third post</Link>
         </li>
       </ul>
-    </>
+    </div>
   );
 }
